@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Speed Typer ,Go Speed Typer Goooo</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+</head>
+<body>
+    
+    <button id="settings-btn" class="settings-btn"><i class="fas fa-cog"></i></button>
+
+    <div id="settings" class="settings">
+        <form id="settings-form">
+            <div>
+                <label for="difficulty" class="settings-text">Difficulty</label>
+                <select id="difficulty">
+                
+                <option value="easy">Eazi Peezi</option>
+                <option value="medium">Medium Peedium</option>
+                <option value="hard">Hardy Pardy</option>
+            </select>
+            </div>
+        </form>
+        </div>
+
+        <div class="container">
+            <h2>Speedy Typo</h2>
+            <small>Type The Following:</small>
+            <h1 id="word"></h1>
+            <input type="text" id="text" autocomplete="off" placeholder="Type Here">
+
+            <p class="time-container">
+                Time Left: <span id="time">10s</span>
+            </p>
+
+            <p class="score-container">
+                Score: <span id="score">0</span>
+            </p>
+
+            <div id="end-game-container" class="end-game-container"></div>
+        </div>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
